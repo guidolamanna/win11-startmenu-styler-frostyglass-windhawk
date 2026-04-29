@@ -19,10 +19,10 @@ Before pasting the code, you need to set up the correct base layout. Open the se
 * **Disable the new start menu layout:** `Disable new layout and Phone Link`
 
 ### Step 2: Import the Frosty Theme
-1. At the top of the mod settings, click the **"Textual mode"** button.
-2. Clear any existing code in that box.
-3. Copy the entire JSON code from the [start-menu-config.json](start-menu-config.json) file in this repository and paste it into the Textual mode box.
-4. Click **Save settings**. Your Start Menu should instantly update to the Frosty Glass look!
+1. **Mod Selection:** Open **Windows 11 Start Menu Styler** in Windhawk.
+2. **Download Config:** Copy the raw code from [`start-menu-config.json`](https://github.com/guidolamanna/win11-startmenu-styler-frostyglass-windhawk/blob/main/start-menu-config.json).
+3. **Textual Mode:** Click on the **Textual mode** button at the top of the settings and paste the code.
+4. **Save:** Click **Save** to apply the frosty effects instantly.
 
 ---
 
@@ -34,6 +34,11 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 3. Scroll down to **Custom process inclusion list**.
 4. Type exactly this in the box: `LockApp.exe`
 5. Click **Save**. Press `Win + L` to lock your PC and enjoy your new Frosty Lock Screen!
+
+> **🔤 Important Note on Fonts:** 
+> This theme uses the **"Quicksand"** font for the Lock Screen to achieve a specific clean, modern look. 
+> * **To get the exact look from the screenshots:** Download and install the "Quicksand" font family (freely available on Google Fonts) before applying the mod.
+> * **To use a native/custom font:** Open the `start-menu-config.json` file, scroll to the bottom, and change the `FontFamily=Quicksand SemiBold` and `FontFamily=Quicksand Medium` lines to your preferred system font (e.g., `Segoe UI Variable`).
 
 ---
 
