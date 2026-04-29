@@ -38,7 +38,7 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 > **🔤 Important Note on Fonts:** 
 > This theme uses the **"Quicksand"** font for the Lock Screen to achieve a specific clean, modern look. 
 > * **To get the exact look from the screenshots:** Download and install the "Quicksand" font family (freely available on Google Fonts) before applying the mod.
-> * **To use a native/custom font:** Open the `start-menu-config.json` file, scroll to the bottom, and change the `FontFamily=Quicksand SemiBold` and `FontFamily=Quicksand Medium` lines to your preferred system font (e.g., `Segoe UI Variable`).
+> * **To use a native/custom font:** Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets (`TextBlock#Time` and `TextBlock#Date`), and change the `FontFamily` property to your preferred system font (e.g., `Segoe UI Variable`).
 
 ---
 
