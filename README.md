@@ -27,7 +27,7 @@ Before pasting the code, you need to set up the correct base layout. Open the se
 ---
 
 ## 🔒 Bonus: Apply Styling to the Lock Screen
-This theme includes custom styling for the Windows 11 Lock Screen (Clock and Date styling). To enable it, you need to allow the mod to target the lock screen process:
+This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date and Media Controls styling). To enable it, you need to allow the mod to target the lock screen process:
 
 1. Open the "Windows 11 Start Menu Styler" mod settings in Windhawk.
 2. Go to the **Advanced** tab.
