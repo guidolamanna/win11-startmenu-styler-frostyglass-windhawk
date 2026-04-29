@@ -21,7 +21,7 @@ Before pasting the code, you need to set up the correct base layout. Open the se
 ### Step 2: Import the Frosty Theme
 1. At the top of the mod settings, click the **"Textual mode"** button.
 2. Clear any existing code in that box.
-3. Copy the entire JSON code from the start-menu-config.json file in this repository and paste it into the Textual mode box.
+3. Copy the entire JSON code from the [start-menu-config.json](start-menu-config.json) file in this repository and paste it into the Textual mode box.
 4. Click **Save settings**. Your Start Menu should instantly update to the Frosty Glass look!
 
 ---
