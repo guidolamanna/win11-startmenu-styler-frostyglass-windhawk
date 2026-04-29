@@ -1,4 +1,4 @@
-# ❄️ Frosty Glass Start Menu Theme for Windows 11
+❄️ Windows 11 Start Menu Styler: Frosty Glass Edition
 
 A clean, minimalist, and highly customizable frosted glass/acrylic theme for the Windows 11 Start Menu. This theme unifies the UI with smooth translucent borders, rounded corners, and a frosty aesthetic, extending even to the Windows Lock Screen.
 
