@@ -54,10 +54,14 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 <img width="2344" height="1662" alt="IMG_8893" src="https://github.com/user-attachments/assets/7e065d0d-8d3e-407c-87f9-3f3debcbde2c" />
 
 > *Note: This is a photo captured with a phone, as standard screenshots on the lock screen can be difficult. It provides a perfect representation of the clean aesthetic.*
+
 ---
 
 ## 🔗 Related Projects
-If you want to complete the look across your entire OS, check out my [Frosty Glass Taskbar Styler Repository](https://github.com/guidolamanna/win11-taskbar-styler-frostyglass-windhawk) to apply this exact same aesthetic to your Taskbar, Alt+Tab menu, volume sliders, and more!
+
+Complete the look across your entire OS! Check out my other Frosty Glass styling repositories:
+* [❄️ Frosty Glass Taskbar Styler](https://github.com/guidolamanna/win11-taskbar-styler-frostyglass-windhawk) to apply this exact same aesthetic to your Taskbar, Alt+Tab menu, volume sliders, and more!
+* [❄️ Frosty Glass Notification Center Styler](https://github.com/guidolamanna/win11-notificationcenter-styler-frostyglass-windhawk) to theme your Notifications, Calendar, and Control Center flyouts!
 
 ---
 
