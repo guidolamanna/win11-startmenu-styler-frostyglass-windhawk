@@ -15,13 +15,13 @@ This theme is built to be used with the **Windhawk** application and the **Windo
 
 ### Step 1: Base Mod Settings
 Before pasting the code, you need to set up the correct base layout. Open the settings for the "Windows 11 Start Menu Styler" mod and configure it exactly like this:
-* **Theme:** `NoRecommendedSection`
-* **Disable the new start menu layout:** `Disable new layout and Phone Link`
+* **Theme:** `None`
+* **Start menu layout:** `Windows Default`
 
 ### Step 2: Import the Frosty Theme
 1. **Mod Selection:** Open **Windows 11 Start Menu Styler** in Windhawk.
 2. **Download Config:** Copy the raw code from [`start-menu-config.json`](https://github.com/guidolamanna/win11-startmenu-styler-frostyglass-windhawk/blob/main/start-menu-config.json).
-3. **Textual Mode:** Click on the **Textual mode** button at the top of the settings and paste the code.
+3. **Advanced Tab:** Go to the **Advanced** tab of the mod settings, delete all text in the text box, and paste the copied code.
 4. **Save:** Click **Save** to apply the frosty effects instantly.
 
 ---
@@ -46,7 +46,7 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 
 ### ❄️ Start Menu Style
 
-<img width="2879" height="1799" alt="Screenshot 2026-04-29 133342" src="https://github.com/user-attachments/assets/d0b63421-bb3a-465e-b176-bcf847707161" />
+<img width="2879" height="1798" alt="image" src="https://github.com/user-attachments/assets/b27e7b3d-a6b6-4377-be6c-89989ac24a0b" />
 <img width="2879" height="1799" alt="Screenshot 2026-04-29 133353" src="https://github.com/user-attachments/assets/17941aaf-a62f-4566-9c96-5bf769f56957" />
 
 ### 🔒 Lock Screen Style
