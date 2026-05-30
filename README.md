@@ -51,9 +51,7 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 
 ### 🔒 Lock Screen Style
 
-<img width="5712" height="4284" alt="IMG_9843" src="https://github.com/user-attachments/assets/a23a5646-9dbf-4039-8ee2-7c0adc089ac7" />
-
-> *Note: This is a photo captured with a phone, as standard screenshots on the lock screen can be difficult. It provides a perfect representation of the clean aesthetic.*
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/38f10aa7-039c-4161-818c-3066676a35e7" />
 
 ---
 
