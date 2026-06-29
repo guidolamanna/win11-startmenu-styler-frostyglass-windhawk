@@ -4,6 +4,8 @@ A clean, minimalist, and highly customizable frosted glass/acrylic theme for the
 
 This theme is built to be used with the **Windhawk** application and the **Windows 11 Start Menu Styler** mod.
 
+---
+
 ## 📋 Prerequisites
 
 1. Download and install [Windhawk](https://windhawk.net/).
