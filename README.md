@@ -1,12 +1,10 @@
 # ❄️ Windows 11 Start Menu Styler: Frosty Glass Edition
-> A clean, minimalist, and highly customizable frosted glass/acrylic theme for the redesigned Windows 11 Start Menu.
+> A refined, translucent "Frosty" experience for the redisigned Windows 11 Start Menu via Windhawk.
 
 [![Windhawk](https://img.shields.io/badge/Requires-Windhawk-blue?style=flat-square)](https://windhawk.net/)
 [![Style](https://img.shields.io/badge/Style-Frosty_Glass-lightgrey?style=flat-square)](#)
 
-A clean, minimalist, and highly customizable frosted glass/acrylic theme for the **redesigned** Windows 11 Start Menu. This theme unifies the UI with smooth translucent borders, rounded corners, and a frosty aesthetic, extending even to the Windows Lock Screen.
-
-This theme is built to be used with the **Windhawk** application and the **Windows 11 Start Menu Styler** mod.
+This configuration provides a modern **Frosty Glass** aesthetic for your Windows 11 Start Menu and Lock Screen. It utilizes custom translucent `AcrylicBrush` effects to create a soft, blurred interface that feels perfectly integrated with the desktop environment.
 
 ---
 
