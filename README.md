@@ -16,8 +16,6 @@ This configuration provides a modern **Frosty Glass** aesthetic for your Windows
 
 ---
 
-## 🛠️ Installation Guide
-
 ## 📦 Manual Installation
 
 The theme styles can be imported manually by following these steps:
@@ -398,12 +396,6 @@ To ensure the Start Menu and Search Menu have a uniform, seamless look:
 | **Start menu height** | `597` |
 | **Search menu width** | `666` |
 | **Search menu height** | `597` |
-
-### Step 3: Import the Frosty Theme
-1. **Mod Selection:** Open **Windows 11 Start Menu Styler** in Windhawk.
-2. **Download Config:** Copy the raw code from [`start-menu-config.json`](https://github.com/guidolamanna/win11-startmenu-styler-frostyglass-windhawk/blob/main/start-menu-config.json).
-3. **Advanced Tab:** Go to the **Advanced** tab of the mod settings, delete all text in the text box, and paste the copied code.
-4. **Save:** Click **Save** to apply the frosty effects instantly.
 
 ---
 
