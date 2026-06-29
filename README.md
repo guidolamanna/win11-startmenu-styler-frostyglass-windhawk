@@ -26,6 +26,18 @@ Before pasting the code, you need to set up the correct base layout. Open the se
 
 ---
 
+## ⚙️ Full Setup & Consistency
+To ensure the Start Menu and Search Menu have a uniform, seamless look, apply these settings in the **Start Menu Size** mod:
+
+| Setting | Value |
+| :--- | :--- |
+| **Start menu width** | `666` |
+| **Start menu height** | `597` |
+| **Search menu width** | `666` |
+| **Search menu height** | `597` |
+
+---
+
 ## 🔒 Bonus: Apply Styling to the Lock Screen
 This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date and Media Controls styling). To enable it, you need to allow the mod to target the lock screen process:
 
