@@ -49,9 +49,12 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 5. Click **Save**. Press `Win + L` to lock your PC and enjoy your new Frosty Lock Screen!
 
 > **🔤 Important Note on Fonts:** 
-> This theme uses the **"Quicksand"** font for the Lock Screen to achieve a specific clean, modern look. 
-> * **To get the exact look from the screenshots:** Download and install the "Quicksand" font family (freely available on Google Fonts) before applying the mod.
-> * **To use a native/custom font:** Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets (`TextBlock#Time` and `TextBlock#Date`), and change the `FontFamily` property to your preferred system font (e.g., `Segoe UI Variable`).
+> This theme uses specific fonts to achieve the clean, modern look shown in image_e6d7c2.png. Please install them before applying the mod:
+> * **Clock Font:** [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.script=Latn) 
+> * **Date Font:** [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ)
+>
+> **How to apply them:**
+> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font file as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `vivoSansENVF` for the date).
 
 ---
 
