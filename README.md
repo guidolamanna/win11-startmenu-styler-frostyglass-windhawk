@@ -54,7 +54,7 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 > * **Date Font:** [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ)
 >
 > **How to apply them:**
-> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font file as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `vivoSansENVF` for the date).
+> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `vivo Sans EN VF` for the date).
 
 ---
 
