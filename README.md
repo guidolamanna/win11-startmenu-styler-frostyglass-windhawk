@@ -380,8 +380,10 @@ controlStyles:
   - target: StartDocked.NavigationPaneView > Windows.UI.Xaml.Controls.Grid#RootPanel
     styles:
       - Margin=-100,0,488,0
+
 ```
-<details>
+
+</details>
 
 ### Configure Start Menu Size
 To ensure the Start Menu and Search Menu have a uniform, seamless look:
