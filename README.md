@@ -8,6 +8,7 @@ This theme is built to be used with the **Windhawk** application and the **Windo
 
 1. Download and install [Windhawk](https://windhawk.net/).
 2. Inside Windhawk, search for and install the **Windows 11 Start Menu Styler** mod by Ramen Software.
+3. Search for and install the **Start Menu Size** mod by Ramen Software.
 
 ---
 
@@ -18,16 +19,10 @@ Before pasting the code, you need to set up the correct base layout. Open the se
 * **Theme:** `None`
 * **Start menu layout:** `Windows Default`
 
-### Step 2: Import the Frosty Theme
-1. **Mod Selection:** Open **Windows 11 Start Menu Styler** in Windhawk.
-2. **Download Config:** Copy the raw code from [`start-menu-config.json`](https://github.com/guidolamanna/win11-startmenu-styler-frostyglass-windhawk/blob/main/start-menu-config.json).
-3. **Advanced Tab:** Go to the **Advanced** tab of the mod settings, delete all text in the text box, and paste the copied code.
-4. **Save:** Click **Save** to apply the frosty effects instantly.
-
----
-
-## ⚙️ Full Setup & Consistency
-To ensure the Start Menu and Search Menu have a uniform, seamless look, apply these settings in the **Start Menu Size** mod:
+### Step 2: Configure Start Menu Size
+To ensure the Start Menu and Search Menu have a uniform, seamless look:
+1. Open the settings for the **Start Menu Size** mod.
+2. Apply these exact values:
 
 | Setting | Value |
 | :--- | :--- |
@@ -35,6 +30,12 @@ To ensure the Start Menu and Search Menu have a uniform, seamless look, apply th
 | **Start menu height** | `597` |
 | **Search menu width** | `666` |
 | **Search menu height** | `597` |
+
+### Step 3: Import the Frosty Theme
+1. **Mod Selection:** Open **Windows 11 Start Menu Styler** in Windhawk.
+2. **Download Config:** Copy the raw code from [`start-menu-config.json`](https://github.com/guidolamanna/win11-startmenu-styler-frostyglass-windhawk/blob/main/start-menu-config.json).
+3. **Advanced Tab:** Go to the **Advanced** tab of the mod settings, delete all text in the text box, and paste the copied code.
+4. **Save:** Click **Save** to apply the frosty effects instantly.
 
 ---
 
