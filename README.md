@@ -385,7 +385,7 @@ controlStyles:
 
 </details>
 
-### Configure Start Menu Size
+## 📏 Configure Start Menu Size
 To ensure the Start Menu and Search Menu have a uniform, seamless look:
 1. Open the settings for the **Start Menu Size** mod.
 2. Apply these exact values:
