@@ -12,7 +12,6 @@ This configuration provides a modern **Frosty Glass** aesthetic for your Windows
 
 1. Download and install [Windhawk](https://windhawk.net/).
 2. Inside Windhawk, search for and install the **Windows 11 Start Menu Styler** mod by Ramen Software.
-3. Search for and install the **Start Menu Size** mod by Ramen Software.
 
 ---
 
@@ -32,22 +31,22 @@ theme: ''
 disableNewStartMenuLayout: ''
 styleConstants:
   - Background=<AcrylicBrush TintColor="#10000020"/>
-  - BorderBrush2=<LinearGradientBrush EndPoint="0,1" StartPoint="0,0"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0"/><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25"/><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1"/></LinearGradientBrush>
+  - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - BorderThickness=1
   - CornerRadius=10
-  - BorderBrush=<LinearGradientBrush EndPoint="0,1" StartPoint="0,0"><GradientStop Color="#50808080" Offset="0.0"/><GradientStop Color="#50404040" Offset="0.25"/><GradientStop Color="#50808080" Offset="1"/></LinearGradientBrush>
-  - Background2=<AcrylicBrush FallbackColor="{ThemeResource SystemChromeAltHighColor}" TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3"/>
+  - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
+  - Background2=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.3" FallbackColor="{ThemeResource SystemChromeAltHighColor}" />
   - TrayPadding=2
-  - ElementBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="0.3"/>
+  - ElementBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="0.3" />
   - ElementBorderThickness=1
-  - ElementBorderBrush=<LinearGradientBrush EndPoint="0,1" StartPoint="0,0"><GradientStop Color="#50808080" Offset="1"/><GradientStop Color="#50606060" Offset="0.15"/></LinearGradientBrush>
+  - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
   - ElementCornerRadius=10
-  - CommonBgBrush=<WindhawkBlur BlurAmount="25" TintColor="#25323232"/>
+  - CommonBgBrush=<WindhawkBlur BlurAmount=\"25\" TintColor=\"#25323232\"/>
   - ClockBG=<WindhawkBlur BlurAmount="8" TintColor="#FFFFFFFF"/>
   - Translucent=<WindhawkBlur BlurAmount="8" TintColor="#90FFFFFF"/>
-  - Glass=<WindhawkBlur BlurAmount="9" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.7"/>
-  - Frosted=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.7"/>
-  - Acrylic=<WindhawkBlur BlurAmount="30" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.8"/>
+  - Glass=<WindhawkBlur BlurAmount="9" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.7" />
+  - Frosted=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.7" />
+  - Acrylic=<WindhawkBlur BlurAmount="30" TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.8" />
 controlStyles:
   - target: StartDocked.SearchBoxToggleButton
     styles:
@@ -73,7 +72,7 @@ controlStyles:
     styles:
       - CornerRadius=7
       - Height=32
-      - RenderTransform:=<TranslateTransform X="5" Y="0"/>
+      - RenderTransform:=<TranslateTransform X="5" Y="0" />
       - Visibility=1
   - target: Border#AcrylicBorder
     styles:
@@ -116,7 +115,7 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Grid#MediaControlsContainer
     styles:
       - Visibility=1
-      - RenderTransform:=<TranslateTransform X="0" Y="0"/>
+      - RenderTransform:=<TranslateTransform X="0" Y="0" />
       - Margin=0,0,0,0
       - CornerRadius=$CornerRadius
   - target: Windows.UI.Xaml.Controls.Grid#CompanionRoot > Windows.UI.Xaml.Controls.Border#AcrylicOverlay
@@ -144,7 +143,7 @@ controlStyles:
       - CornerRadius:=$CornerRadius
       - Height=Auto
       - Width=Auto
-      - RenderTransform:=<TranslateTransform X="0" Y="-14"/>
+      - RenderTransform:=<TranslateTransform X="0" Y="-14" />
       - Margin=20,15,20,15
   - target: Windows.UI.Xaml.Controls.Grid#ContentBorder
     styles:
@@ -177,7 +176,7 @@ controlStyles:
       - Visibility=1
   - target: Microsoft.UI.Xaml.Controls.DropDownButton#ViewSelectionButton
     styles:
-      - RenderTransform:=<TranslateTransform X="0" Y="0"/>
+      - RenderTransform:=<TranslateTransform X="0" Y="0" />
       - Visibility=1
   - target: StartMenu.PinnedList#StartMenuPinnedList > Windows.UI.Xaml.Controls.Grid#Root > Windows.UI.Xaml.Controls.GridView#PinnedList > Windows.UI.Xaml.Controls.Border
     styles:
@@ -272,7 +271,7 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Grid#MediaControlsContainer
     styles:
       - Visibility=0
-      - RenderTransform:=<TranslateTransform X="0" Y="-4"/>
+      - RenderTransform:=<TranslateTransform X="0" Y="-4" />
       - Margin=0,0,0,0
       - CornerRadius=$CornerRadius
       - HorizontalAlignment=Center
@@ -311,16 +310,16 @@ controlStyles:
   - target: StackPanel#TimePanel > TextBlock#Time
     styles:
       - HorizontalAlignment:=Center
-      - RenderTransform:=<TransformGroup><TranslateTransform X="0" Y="0"/><ScaleTransform ScaleX="1" ScaleY="1"/></TransformGroup>
+      - RenderTransform:=<TransformGroup><TranslateTransform X="0" Y="0" /><ScaleTransform ScaleX="1" ScaleY="1" /></TransformGroup>
       - Foreground:=$Translucent
       - FontSize=150
       - FontFamily=Quicksand SemiBold
   - target: StackPanel#TimeAndDatePanel > TextBlock#Date
     styles:
       - HorizontalAlignment=Center
-      - RenderTransform:=<TranslateTransform X="0" Y="-190"/>
+      - RenderTransform:=<TranslateTransform X="0" Y="-190" />
       - Foreground:=$ClockBG
-      - FontFamily=vivo Sans EN VF
+      - FontFamily=Segoe UI VF
   - target: Windows.UI.Xaml.Controls.FlyoutPresenter
     styles:
       - Background:=$Background
@@ -328,7 +327,7 @@ controlStyles:
       - BorderThickness:=$BorderThickness
       - CornerRadius:=$CornerRadius
       - Margin=-115,-10,0,0
-  - target: Windows.UI.Xaml.Controls.FlyoutPresenter > Windows.UI.Xaml.Controls.Border > Windows.UI.Xaml.Controls.ScrollViewer > Windows.UI.Xaml.Controls.Border > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.ScrollContentPresenter > Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.Border
+  - target: Windows.UI.Xaml.Controls.FlyoutPresenter > Windows.UI.Xaml.Controls.Border > Windows.UI.Xaml.Controls.ScrollViewer  > Windows.UI.Xaml.Controls.Border  > Windows.UI.Xaml.Controls.Grid  > Windows.UI.Xaml.Controls.ScrollContentPresenter  > Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.Border
     styles:
       - Background:=Transparent
       - CornerRadius=$CornerRadius
@@ -380,6 +379,32 @@ controlStyles:
   - target: StartDocked.NavigationPaneView > Windows.UI.Xaml.Controls.Grid#RootPanel
     styles:
       - Margin=-100,0,488,0
+  - target: StartDocked.StartSizingFrame
+    styles:
+      - Height=597
+      - Width=666
+  - target: Grid#FrameRoot
+    styles:
+      - Height=597
+      - MinWidth=666
+  - target: Windows.UI.Xaml.Controls.ScrollContentPresenter > Windows.UI.Xaml.Controls.Border > Cortana.UI.Views.TaskbarSearchPage > Grid#RootGrid
+    styles:
+      - Width=666
+      - Margin=0,153,0,0
+  - target: Windows.UI.Xaml.Controls.Primitives.ToggleButton#ShowHideCompanion
+    styles:
+      - Margin=-70,0,0,0
+      - CornerRadius:=5
+themeResourceVariables:
+  - ''
+webContentStyles:
+  - target: '#qfPreviewPane'
+    styles:
+      - 'min-width: 325px !important'
+webContentCustomJs: ''
+resourceVariables:
+  - variableKey: ''
+    value: ''
 
 ```
 
@@ -388,24 +413,9 @@ controlStyles:
 ---
 
 ## 🎨 Recommended Setup for Uniformity
-To achieve the exact minimalist "Frosty Glass" look seen in the screenshots, I highly recommend the following setup:
+To achieve the exact minimalist "Frosty Glass" look seen in the screenshots, I recommend the following setup:
 
 * **Minimalist Start Menu Folders:** Use only one folder in the Start Menu (e.g., Settings). This keeps the UI balanced, placing the power button on the right and your folder on the left. Adding more than one folder can disrupt the visual symmetry.
-* **Disable Phone Link:** For a cleaner, clutter-free look, it is recommended to remove the Phone Link integration from your Start Menu.
-
----
-
-## 📏 Configure Start Menu Size
-To ensure the Start Menu and Search Menu have a uniform, seamless look:
-1. Open the settings for the **Start Menu Size** mod.
-2. Apply these exact values:
-
-| Setting | Value |
-| :--- | :--- |
-| **Start menu width** | `666` |
-| **Start menu height** | `597` |
-| **Search menu width** | `666` |
-| **Search menu height** | `597` |
 
 ---
 
@@ -421,10 +431,10 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 > **🔤 Important Note on Fonts:** 
 > This theme uses specific fonts to achieve the clean, modern look shown in image_e6d7c2.png. Please install them before applying the mod:
 > * **Clock Font:** [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.script=Latn) 
-> * **Date Font:** [Vivo Sans En VF](https://1drv.ms/u/c/67fedd4420ed716d/EXRoW1f5dABJrO2dPj0tbM0Bm1uYiGeoKyAYA7X7er2Zww?e=cLsiJJ)
+> * **Date Font:** Segoe UI VF (system font)
 >
 > **How to apply them:**
-> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `vivo Sans EN VF` for the date).
+> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `Segoe UI VF` for the date).
 
 ---
 
@@ -432,8 +442,9 @@ This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date a
 
 ### ❄️ Start Menu & Search Style
 
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a0ed3f8-f85b-49a8-8026-756e9196a5e9" />
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/c3e8af26-712d-44bb-856a-17c200b1d983" />
+<img width="2880" height="1800" alt="Screenshot 2026-06-30 115600" src="https://github.com/user-attachments/assets/1328ebd3-3831-485b-a111-286450ac0914" />
+<img width="2880" height="1800" alt="Screenshot 2026-06-30 115623" src="https://github.com/user-attachments/assets/10d74d02-de1f-4d1d-a570-540c516e2930" />
+<img width="2880" height="1800" alt="Screenshot 2026-06-30 115642" src="https://github.com/user-attachments/assets/14646991-3fe2-45f3-8396-b05782ad5304" />
 
 ### 🔒 Lock Screen Style
 
