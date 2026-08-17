@@ -1,27 +1,79 @@
-# ❄️ Windows 11 Start Menu Styler: Frosty Glass Edition
-> A refined, translucent "Frosty" experience for the redisigned Windows 11 Start Menu via Windhawk.
+# ❄️ FrostyGlass theme for Windows 11 Start Menu Styler
+
+A refined, translucent "Frosty" experience for the redesigned Windows 11 Start Menu via Windhawk.
+
+**Author**: [Guido Lamanna](https://github.com/guidolamanna)
 
 [![Windhawk](https://img.shields.io/badge/Requires-Windhawk-blue?style=flat-square)](https://windhawk.net/)
 [![Style](https://img.shields.io/badge/Style-Frosty_Glass-lightgrey?style=flat-square)](#)
 
-This configuration provides a modern **Frosty Glass** aesthetic for your Windows 11 Start Menu and Lock Screen. It utilizes custom translucent `AcrylicBrush` effects to create a soft, blurred interface that feels perfectly integrated with the desktop environment.
-
----
+This configuration provides a modern **Frosty Glass** aesthetic for your Windows 11 Start menu and lock screen. It utilizes custom translucent `WindhawkBlur` effects to create a soft, blurred interface that feels perfectly integrated with the desktop environment.
 
 ## 📋 Prerequisites
 
 1. Download and install [Windhawk](https://windhawk.net/).
 2. Inside Windhawk, search for and install the **Windows 11 Start Menu Styler** mod by Ramen Software.
 
----
+## 🎨 Recommended Setup for Uniformity
+To achieve the exact minimalist "Frosty Glass" look seen in the screenshots, I recommend the following setup:
 
-## 📦 Manual Installation
+* **Minimalist Start Menu Folders:** Use only one folder in the Start Menu (e.g., Settings). This keeps the UI balanced, placing the power button on the right and your folder on the left. Adding more than one folder can disrupt the visual symmetry.
 
-The theme styles can be imported manually by following these steps:
+## 🔒 Bonus: Apply Styling to the Lock Screen
+This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date and Media Controls styling). To enable it, you need to allow the mod to target the lock screen process:
 
-1. Open the **Windows 11 Start Menu Styler** in Windhawk.
-2. Go to the **Settings** tab and select **Textual mode**.
-3. Copy the content below and click **Save settings**.
+1. Open the "Windows 11 Start Menu Styler" mod settings in Windhawk.
+2. Go to the **Advanced** tab.
+3. Scroll down to **Custom process inclusion list**.
+4. Type exactly this in the box: `LockApp.exe`
+5. Click **Save**. Press `Win + L` to lock your PC and enjoy your new Frosty Lock Screen!
+
+### 🔤 Important Note on Fonts
+This theme uses specific fonts to achieve the clean, modern look shown in image_e6d7c2.png. Please install them before applying the mod:
+* **Clock Font:** [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.script=Latn) 
+* **Date Font:** Segoe UI VF (system font)
+
+**How to apply them:**
+Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `Segoe UI VF` for the date).
+
+## 📸 Showcase
+
+### ❄️ Start Menu & Search Style
+
+<img width="2880" height="1800" alt="Screenshot 2026-06-30 115600" src="https://github.com/user-attachments/assets/1328ebd3-3831-485b-a111-286450ac0914" />
+<img width="2880" height="1800" alt="Screenshot 2026-06-30 115623" src="https://github.com/user-attachments/assets/10d74d02-de1f-4d1d-a570-540c516e2930" />
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/65db56f8-dd0b-4096-94f9-f9490eed6556" />
+
+### 🔒 Lock Screen Style
+
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/5d85068d-f56e-43a2-9e93-f9c5aa5a02d6" />
+
+## 🔗 Related Projects
+
+Complete the look across your entire UI! Check out my other Frosty Glass styling repositories:
+* [❄️ Frosty Glass Taskbar Styler](https://github.com/guidolamanna/win11-taskbar-styler-frostyglass-windhawk) to apply this exact same aesthetic to your Taskbar, Alt+Tab menu, volume sliders, and more!
+* [❄️ Frosty Glass Notification Center Styler](https://github.com/guidolamanna/win11-notificationcenter-styler-frostyglass-windhawk) to theme your Notifications, Calendar, and Control Center flyouts!
+
+## 🙌 Credits & Inspiration
+
+A huge thank you to [Ramen Software](https://github.com/ramensoftware) for creating Windhawk. This configuration was heavily inspired by the official [Windows 11 Start Menu Styling Guide](https://github.com/ramensoftware/windows-11-start-menu-styling-guide) and the Windhawk modding community.
+
+## 🎚️ Theme selection
+
+The theme is integrated into the mod and can be selected directly from the mod's
+settings:
+
+* Open the Windows 11 Start Menu Styler mod in Windhawk.
+* Go to the "Settings" tab.
+* Select the theme and save the settings.
+
+## 📦 Manual installation
+
+The theme styles can also be imported manually. To do that, follow these steps:
+
+* Open the Windows 11 Start Menu Styler mod in Windhawk.
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
 <details>
 <summary>Content to import (click to expand)</summary>
@@ -30,7 +82,7 @@ The theme styles can be imported manually by following these steps:
 theme: ''
 disableNewStartMenuLayout: ''
 styleConstants:
-  - Background=<AcrylicBrush TintColor="#10000020"/>
+  - Background=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemChromeDarkColor}" TintOpacity="0.15" />
   - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - BorderThickness=1
   - CornerRadius=10
@@ -140,17 +192,17 @@ controlStyles:
       - Background@PointerOver:=$Background
       - Background@Pressed:=$Background
       - Background@Selected:=$Background
-      - CornerRadius:=$CornerRadius
+      - CornerRadius:=10
       - Height=Auto
       - Width=Auto
       - RenderTransform:=<TranslateTransform X="0" Y="-14" />
       - Margin=20,15,20,15
   - target: Windows.UI.Xaml.Controls.Grid#ContentBorder
     styles:
-      - CornerRadius:=$CornerRadius
+      - CornerRadius:=7
   - target: Windows.UI.Xaml.Controls.Border#BackgroundBorder
     styles:
-      - CornerRadius:=$CornerRadius
+      - CornerRadius:=7
   - target: Windows.UI.Xaml.Controls.Border#LayerBorder
     styles:
       - CornerRadius:=$CornerRadius
@@ -200,7 +252,7 @@ controlStyles:
     styles:
       - BorderBrush:=$BorderBrush
       - Background:=$Background
-      - CornerRadius:=$CornerRadius
+      - CornerRadius:=10
       - BorderThickness:=$BorderThickness
   - target: Windows.UI.Xaml.Controls.ToolTip > Windows.UI.Xaml.Controls.ContentPresenter#LayoutRoot
     styles:
@@ -254,9 +306,8 @@ controlStyles:
   - target: StartMenu.PinnedList
     styles:
       - Height=350
-      - Margin=0,-25,0,-400
+      - Margin=-5,-25,0,-400
       - Visibility=0
-      - HorizontalAlignment=Left
       - VerticalAlignment=Center
   - target: Grid@SearchBoxInputStates > Border#TaskbarSearchBackground
     styles:
@@ -304,9 +355,10 @@ controlStyles:
     styles:
       - Width=32
       - Height=35
-      - Margin=10,0,10,0
+      - Margin=0,0,10,0
       - Padding=0,0,-1.5,0
       - CornerRadius:=7
+      - HorizontalAlignment=Left
   - target: StackPanel#TimePanel > TextBlock#Time
     styles:
       - HorizontalAlignment:=Center
@@ -345,13 +397,14 @@ controlStyles:
       - Visibility=1
   - target: StartDocked.UserTileView > StartDocked.NavigationPaneButton > Grid@CommonStates > Border
     styles:
-      - CornerRadius=10
+      - CornerRadius=7
       - Width=45
   - target: StartMenu.SearchBoxToggleButton#SearchBoxToggleButton
     styles:
       - Width=520
       - Margin=-4,0,0,0
       - Visibility=0
+      - HorizontalAlignment=Center
   - target: StartMenu.SearchBoxToggleButton > Grid@CommonStates > Border#BorderElement
     styles:
       - Background:=$Background
@@ -360,7 +413,7 @@ controlStyles:
       - Background:=Transparent
       - BorderBrush:=Transparent
       - BorderThickness:=Transparent
-      - CornerRadius:=Transparent
+      - CornerRadius:=10
       - Width=Auto
       - Height=40
       - Margin=0,0,2,3
@@ -381,14 +434,26 @@ controlStyles:
     styles:
       - Height=597
       - MinWidth=666
+  - target: Grid#MainMenu
+    styles:
+      - Width=642
   - target: Windows.UI.Xaml.Controls.ScrollContentPresenter > Windows.UI.Xaml.Controls.Border > Cortana.UI.Views.TaskbarSearchPage > Grid#RootGrid
     styles:
       - Width=666
       - Margin=0,153,0,0
   - target: Windows.UI.Xaml.Controls.Primitives.ToggleButton#ShowHideCompanion
     styles:
-      - Margin=-70,0,0,0
-      - CornerRadius:=5
+      - Margin=-71,0,0,0
+      - CornerRadius:=3
+  - target: Windows.UI.Xaml.Controls.Border#StartDropShadow
+    styles:
+      - CornerRadius=$CornerRadius
+  - target: Windows.UI.Xaml.Controls.Grid#OuterBorderGrid > Windows.UI.Xaml.Controls.Grid#BorderGrid > Windows.UI.Xaml.Controls.Border#dropshadow
+    styles:
+      - CornerRadius=$CornerRadius
+  - target: Button
+    styles:
+      - CornerRadius=7
 themeResourceVariables:
   - ''
 webContentStyles:
@@ -396,68 +461,5 @@ webContentStyles:
     styles:
       - 'min-width: 325px !important'
 webContentCustomJs: ''
-resourceVariables:
-  - variableKey: ''
-    value: ''
-
 ```
-
 </details>
-
----
-
-## 🎨 Recommended Setup for Uniformity
-To achieve the exact minimalist "Frosty Glass" look seen in the screenshots, I recommend the following setup:
-
-* **Minimalist Start Menu Folders:** Use only one folder in the Start Menu (e.g., Settings). This keeps the UI balanced, placing the power button on the right and your folder on the left. Adding more than one folder can disrupt the visual symmetry.
-
----
-
-## 🔒 Bonus: Apply Styling to the Lock Screen
-This theme includes custom styling for the Windows 11 Lock Screen (Clock, Date and Media Controls styling). To enable it, you need to allow the mod to target the lock screen process:
-
-1. Open the "Windows 11 Start Menu Styler" mod settings in Windhawk.
-2. Go to the **Advanced** tab.
-3. Scroll down to **Custom process inclusion list**.
-4. Type exactly this in the box: `LockApp.exe`
-5. Click **Save**. Press `Win + L` to lock your PC and enjoy your new Frosty Lock Screen!
-
-> **🔤 Important Note on Fonts:** 
-> This theme uses specific fonts to achieve the clean, modern look shown in image_e6d7c2.png. Please install them before applying the mod:
-> * **Clock Font:** [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.script=Latn) 
-> * **Date Font:** Segoe UI VF (system font)
->
-> **How to apply them:**
-> Open the mod settings in Windhawk, scroll through the styles list to find the Lock Screen targets, and update the `FontFamily` property. You must use the **exact name of the font as it appears installed in your Windows system** (for example, in my setup I use `Quicksand SemiBold` for the clock and `Segoe UI VF` for the date).
-
----
-
-## 📸 Showcase
-
-### ❄️ Start Menu & Search Style
-
-<img width="2880" height="1800" alt="Screenshot 2026-06-30 115600" src="https://github.com/user-attachments/assets/1328ebd3-3831-485b-a111-286450ac0914" />
-<img width="2880" height="1800" alt="Screenshot 2026-06-30 115623" src="https://github.com/user-attachments/assets/10d74d02-de1f-4d1d-a570-540c516e2930" />
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/65db56f8-dd0b-4096-94f9-f9490eed6556" />
-
-### 🔒 Lock Screen Style
-
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/5d85068d-f56e-43a2-9e93-f9c5aa5a02d6" />
-
----
-
-## 🔗 Related Projects
-
-Complete the look across your entire UI! Check out my other Frosty Glass styling repositories:
-* [❄️ Frosty Glass Taskbar Styler](https://github.com/guidolamanna/win11-taskbar-styler-frostyglass-windhawk) to apply this exact same aesthetic to your Taskbar, Alt+Tab menu, volume sliders, and more!
-* [❄️ Frosty Glass Notification Center Styler](https://github.com/guidolamanna/win11-notificationcenter-styler-frostyglass-windhawk) to theme your Notifications, Calendar, and Control Center flyouts!
-
----
-
-## 🙌 Credits & Inspiration
-
-A huge thank you to [Ramen Software](https://github.com/ramensoftware) for creating Windhawk. This configuration was heavily inspired by the official [Windows 11 Start Menu Styling Guide](https://github.com/ramensoftware/windows-11-start-menu-styling-guide) and the Windhawk modding community.
-
----
-
-*Created by [Guido Lamanna](https://github.com/guidolamanna)*
